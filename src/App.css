@@ -1,6 +1,25 @@
-*{margin: 0px; padding: 0px; box-sizing: border-box; }
+*{margin: 0px; padding: 0px;  }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {font-family: 'Roboto', sans-serif;font-size: 14px; }
-.bg-blue {background-color:blue; }
-.headerWrapper .top-strip{padding: 20px 0px;}
-.headerWrapper .top-strip p{color: white; font-size: 12px; font-weight: 700;}
+.bg-blue {background:  #233a95; }
+.container{max-width:90%;} 
+.headerWrapper .top-strip{padding: 8px 0px;}
+.headerWrapper .top-strip p{color: white; font-size: 12px; font-weight: 500;}
+
+.headerWrapper .header{width: 100%; height: auto; padding: 15px 0px; }
+.logoWrapper img{width: 100px; }
+.headerWrapper .header .part2 .countryDrop{width:170px ; height: 50px;min-width: 170px;color: black !important; border: 1px solid rgba(0,0,0,0.2) !important; border-radius: 7px !important; padding: 10px 10px !important; }
+.headerWrapper .header .part2 .countryDrop{text-align: left; justify-content: flex-start !important;}
+.headerWrapper .header .part2 .countryDrop .lable{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0,0,0.5) !important; }
+.headerWrapper .header .part2 .countryDrop .name{font-size: 14px !important; text-transform: capitalize !important; color: #233a95  !important; font-weight: 700px; }
+.headerWrapper .header .part2 .countryDrop .span.m1-auto svg{opacity: 0.7px;}
+header .headerSearch{width: 60%; height: 50px; background: #f3f4f7; padding: 10px; position: relative;border-radius: 10px; border: 1px solid rgba(0,0,0,0.1);}
+header .headerSearch input{ background: transparent !important; outline: none !important;font-size:  15px; color: rgba(0,0,0,0.8);width: 100%; height: 30px; border: 0px !important; padding: 0px 20px !important;}
+header .headerSearch button{position: absolute; top:10px;right:15px; z-index: 100; min-width: 40px !important ;height: 40px !important;width: 40px; border-radius: 50% !important; color: black;}
+header .headerSearch button svg{font-size: 25px;}
+header .part3 .circle{align-items: center; justify-content: center; min-width: 45px !important; height: 45px !important;width: 45px !important;border-radius: 50% !important;border: 1px solid rgba(0,0,0,0.1) !important;color: black; }
+header .part3 .circle svg{font-size: 22px;}
+.cartTab .price{font-size: 18px; color: rgba(0,0,0,0.8);font-weight: 700;}
+.cartTab button{background:#fff1ee !important ;}
+.cartTab button svg{color: #ea2b0f !important;}
+.cartTab .count{position: absolute; top: -6px; right:-4px; background: #ea2b0f;border-radius: 50%; color: #fff;width: 20px;height: 20px;}
