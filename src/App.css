@@ -1,0 +1,6 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {font-family: 'Roboto', sans-serif;font-size: 14px; }
+.bg-blue {background-color:blue; }
+.headerWrapper .top-strip{padding: 20px 0px;}
+.headerWrapper .top-strip p{color: white; font-size: 12px; font-weight: 700;}
