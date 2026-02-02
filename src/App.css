@@ -6,7 +6,10 @@ body {font-family: 'Roboto', sans-serif;font-size: 14px; }
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1200px
 }}
-.container{max-width:90%;} 
+
+::-webkit-scrollbar{width: 6px !important; height: 8px !important; }
+::-webkit-scrollbar-thumb{background: #ccc !important;  }
+::-webkit-scrollbar-track{background: transparent !important; }
 .headerWrapper .top-strip{padding: 8px 0px;}
 .headerWrapper .top-strip p{color: white; font-size: 12px; font-weight: 500;}
 
@@ -17,10 +20,10 @@ body {font-family: 'Roboto', sans-serif;font-size: 14px; }
 .headerWrapper .header .part2 .countryDrop .lable{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0,0,0.5) !important; }
 .headerWrapper .header .part2 .countryDrop .name{font-size: 14px !important; text-transform: capitalize !important; color: #233a95  !important; font-weight: 700px; }
 .headerWrapper .header .part2 .countryDrop .span.m1-auto svg{opacity: 0.7px;}
-header .headerSearch{width: 60%; height: 50px; background: #f3f4f7; padding: 10px; position: relative;border-radius: 10px; border: 1px solid rgba(0,0,0,0.1);}
-header .headerSearch input{ background: transparent !important; outline: none !important;font-size:  15px; color: rgba(0,0,0,0.8);width: 100%; height: 30px; border: 0px !important; padding: 0px 20px !important;}
-header .headerSearch button{position: absolute; top:10px;right:15px; z-index: 100; min-width: 40px !important ;height: 40px !important;width: 40px; border-radius: 50% !important; color: black;}
-header .headerSearch button svg{font-size: 25px;}
+.headerSearch{width: 60%; height: 50px; background: #f3f4f7; padding: 10px; position: relative;border-radius: 10px; border: 1px solid rgba(0,0,0,0.1);}
+.headerSearch input{ background: transparent !important; outline: none !important;font-size:  15px; color: rgba(0,0,0,0.8);width: 100%; height: 30px; border: 0px !important; padding: 0px 20px !important;}
+.headerSearch button{position: absolute; top:5px;right:10px; z-index: 100; min-width: 40px !important ;height: 40px !important;width: 40px; border-radius: 50% !important; color: black;}
+.headerSearch button svg{font-size: 25px;opacity:0.8 ;}
 header .part3 .circle{align-items: center; justify-content: center; min-width: 45px !important; height: 45px !important;width: 45px !important;border-radius: 50% !important;border: 1px solid rgba(0,0,0,0.1) !important;color: black; }
 header .part3 .circle svg{font-size: 22px;}
 .cartTab .price{font-size: 18px; color: rgba(0,0,0,0.8);font-weight: 700;}
@@ -28,6 +31,14 @@ header .part3 .circle svg{font-size: 22px;}
 .cartTab button svg{color: #ea2b0f !important;}
 .cartTab .count{position: absolute; top: -6px; right:-4px; background: #ea2b0f;border-radius: 50%; color: #fff;width: 20px;height: 20px;}
 /* Day3 */
+.locationModal .MuiPaper-elevation{padding: 25px;position: relative;}
+.locationModal .countryList{margin-bottom: 0px;max-height: 400px;overflow-y: scroll; overflow-x: hidden;}
+.locationModal .countryList li{list-style: none; width: 100%;}
+.locationModal .countryList li button{width: 100%; text-transform: capitalize !important; color: #000 !important; justify-content:flex-start !important;padding: 10px 20px !important;}
+.locationModal .close_{position: absolute; top: 2px;right: 10px;color: #000 !important;min-width: 40px !important; width: 40px !important; height: 40px !important;border-radius: 50% !important;}
+.locationModal .close_ svg{font-size: 22px;}
+nav .navPart1{max-width: 20%; flex: 0 0 20%;}
+nav .navPart2{max-width: 80%; flex: 0 0 80%;}
 nav .allCatTab{ background: #2bbef9; padding: 10px 15px !important; border-radius: 30px !important;}
 nav .allCatTab *{color: #fff;}
 nav .allCatTab:hover{ background: #2bbef9}
@@ -35,6 +46,7 @@ nav .allCatTab .text{font-weight: 600;}
 nav .allCatTab .icon1 svg{font-size: 20px !important; ;}
 nav .allCatTab .icon2 svg{font-size: 15px !important; ;}
 nav .navPart2 ul{margin-bottom: 0px;}
-nav .navPart2 ul li a{font-size: 15px; font-weight: 600px; text-decoration: none; color:rgba(0,0,0,0.7) ;text-transform:uppercase ;display: flex;align-self: center;padding:8px 15px ; transition: all 0.2s ease-in-out;border-radius: 30px;}
-nav .navPart2 ul li a svg{font-size: 20px;}
+nav .navPart2 ul li a{text-decoration: none;} 
+nav .navPart2 ul li a button{font-size: 14px; font-weight: 600px; text-decoration: none; color:rgba(0,0,0,0.7) ;text-transform:uppercase ;display: flex;align-items: center;padding:8px 15px ; transition: all 0.2s ease-in-out;border-radius: 25px;}
+nav .navPart2 ul li a svg{font-size: 15px;}
 nav .navPart2 ul li a:hover{background: #f0faff; color: #2bbef9;}
